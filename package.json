@@ -1,0 +1,17 @@
+{
+  "name": "question",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev ppt/question.md --open",
+    "export": "export ppt/question.md --format pptx"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.50.0-beta.10",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "slidev-theme-purplin": "^1.2.0",
+    "vue": "^3.5.13"
+  }
+}
